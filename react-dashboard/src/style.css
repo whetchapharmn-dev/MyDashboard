@@ -398,3 +398,103 @@ body {
   border-radius: 999px;
   font-weight: 700;
   min-width: fit-content;
+}
+
+.dashboard-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  margin-top: 28px;
+}
+
+.panel h3 {
+  margin-top: 0;
+  font-size: 1.7rem;
+  color: #f8fafc;
+}
+
+.panel-subtitle {
+  margin-top: 28px;
+  margin-bottom: 16px;
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+.card-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  margin-top: 18px;
+}
+
+.data-table {
+  margin-top: 32px;
+  padding: 28px;
+  border-radius: 32px;
+  background: rgba(15, 23, 42, 0.92);
+  border: 1px solid rgba(148, 163, 184, 0.08);
+}
+
+.data-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 18px;
+}
+
+.data-table th,
+.data-table td {
+  text-align: left;
+  padding: 14px 16px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.12);
+}
+
+.data-table th {
+  color: #cbd5e1;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.data-table td {
+  color: #f8fafc;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+.card-pill {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 18px 20px;
+  border-radius: 24px;
+  background: rgba(15, 23, 42, 0.84);
+  border: 1px solid rgba(148, 163, 184, 0.08);
+}
+
+.card-pill span {
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+.card-pill strong {
+  font-size: 1.2rem;
+  color: #f8fafc;
+}
+
+.card-pill-blue {
+  border-color: rgba(59, 130, 246, 0.18);
+}
+
+.card-pill-red {
+  border-color: rgba(239, 68, 68, 0.18);
+}
+
+.card-pill-emerald {
+  border-color: rgba(16, 185, 129, 0.18);
+}
+
+.card-pill-purple {
+  border-color: rgba(168, 85, 247, 0.22);
+}
